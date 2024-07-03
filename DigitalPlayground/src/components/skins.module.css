@@ -1,0 +1,137 @@
+
+.container {
+  max-width: 1000px; 
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.title {
+  text-align: center;
+  color: #333;
+}
+
+.skinList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.skinItem {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+  width: 100%; 
+}
+
+.skinImage {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.skinDetails {
+  flex-grow: 1;
+}
+
+.skinName {
+  margin: 0;
+  color: #333;
+}
+
+.skinDescription, .skinPrice {
+  margin: 5px 0;
+  color: #666;
+}
+
+.deleteButton {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.deleteButton:hover {
+  background-color: #c0392b;
+}
+
+.paginationButtons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.paginationButton {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin: 0 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.paginationButton:hover {
+  background-color: #2980b9;
+}
+
+.formTitle {
+  text-align: center;
+  margin-top: 40px;
+  color: #333;
+}
+
+.skinForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.formInput {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.formLabel {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+  color: #333;
+}
+
+.formCheckbox {
+  margin-left: 10px;
+}
+
+.submitButton {
+  background-color: #2ecc71;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submitButton:hover {
+  background-color: #27ae60;
+}

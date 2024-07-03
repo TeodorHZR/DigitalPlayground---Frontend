@@ -1,0 +1,54 @@
+.tournaments-container, .teams-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .tournament-card, .team-card {
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s;
+    display: flex;
+    flex-direction: column; 
+  }
+  
+  .tournament-card:hover, .team-card:hover {
+    transform: scale(1.05);
+  }
+  
+  button {
+    background: #1e90ff;
+    border: none;
+    border-radius: 5px;
+    color: black; 
+    cursor: pointer;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    transition: background 0.3s;
+    align-self: center; 
+  }
+  
+  button:hover {
+    background: #63a4ff;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    width: 100%; 
+  }
+  .animated-text {
+    top: 10px;
+    left: 0;
+    width: 715px;
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+    z-index: 1000;
+    pointer-events: none;
+  }
+  
